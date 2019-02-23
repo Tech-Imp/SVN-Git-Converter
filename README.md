@@ -114,7 +114,7 @@ Note that the file command needs three slashes and the drive part of the path do
 This will lead you through the process of generating an authors file alone. It will terminate upon completing the creation.
 
 
-###DEV Additional notes:
+### DEV Additional notes:
 
 There is a makefile included in the source of this project in the event convert-to-git.exe needs to be regenerated. Run the 'make' command 
 
