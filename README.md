@@ -93,7 +93,7 @@ If you run into a "Connection reset by peer..."  Error continually without being
 
 It is important that the name of the backup file match the repo, otherwise additional steps involving using bypass commands will be needed for the program.
 
-To obtain this flat file dump, contact the steward at dvcs@utlists.utexas.edu with the name of the repo this issue is occurring for and request the flat file dump. This flat file must be placed in the same directory as the executible in order for the program to detect it. After the authors file generation stage, the program will detect and prompt the user of the existence of the file and options for it, from expanding the file into a local subversion repository, to just run on the already existing folder (in the event you do not need to reinflate again) to ignoring the dump files presence entirely. Processing will then resume as normal with the program handling where to properly point rather than the user having to worry. 
+This flat file must be placed in the same directory as the executible in order for the program to detect it. After the authors file generation stage, the program will detect and prompt the user of the existence of the file and options for it, from expanding the file into a local subversion repository, to just run on the already existing folder (in the event you do not need to reinflate again) to ignoring the dump files presence entirely. Processing will then resume as normal with the program handling where to properly point rather than the user having to worry. 
 
 To do this process manually run:
 
