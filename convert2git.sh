@@ -2,8 +2,8 @@
 #Stephen 'Techimp' Fernandez
 version=4.32
 #Ease of use variables
-comEmail="@eid.utexas.edu" #common email suffix
-stewardEmail="dvcs@utlists.utexas.edu"
+comEmail="@mail.com" #common email suffix
+stewardEmail="STEWARD@EMAIL"
 baseSVN=""	#fill this with the common base web address of subversion repository 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 #Default flags
