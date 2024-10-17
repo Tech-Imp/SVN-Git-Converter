@@ -147,7 +147,7 @@ bool syscheck::checkPath(string command){
 	}
 	logger("--End test against "+command+"--");
 	return found;
-	//system(("for %i in ("+command+".exe) do @echo. %~$PATH:i").c_str());
+	
 }
 //-----------------------------------------------------------------
 //-----------------------------------------------------------------
@@ -170,8 +170,6 @@ bool syscheck::setPath(string defLoc, string command){
 			system(("setx /M PATH \"%PATH%"+defLoc+"\"").c_str());
 			system(("set PATH=%PATH%;"+defLoc).c_str());
 			
-			//logger(("set PATH=%PATH%;"+defLoc).c_str());
-			//system("set PATH=%PATH%;c:\\XXdogXX");
 			logger(getenv("PATH"));
 			prevLocs=defLoc;
 				
